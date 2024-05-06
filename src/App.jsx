@@ -1,3 +1,11 @@
 import { Login } from "./pages/login/Login"
 import { ShopCart } from "./pages/shop-cart/ShopCart"
-export const App = () => <h1>This works</h1>
+export const App = () => {
+  return (
+    <div>
+      <h1>App</h1>
+      <Login />
+      <ShopCart />
+    </div>
+  )
+}
