@@ -1,0 +1,1 @@
+export const ShopCart = () => <h1> Shopcart Page</h1>
